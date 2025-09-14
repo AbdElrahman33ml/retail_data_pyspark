@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 ## script
 ```bash
-python scripts/spark_sql_analysis.py
+python scripts/analysis.py
 ```
 
 
