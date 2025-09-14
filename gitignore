@@ -1,0 +1,32 @@
+
+# ملفات البيئة الافتراضية
+venv/
+.env/
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+
+# ملفات الإخراج المؤقتة
+*.log
+*.tmp
+*.bak
+
+# ملفات Jupyter
+.ipynb_checkpoints/
+
+# ملفات Python bytecode
+__pycache__/
+*.py[cod]
+
+# ملفات البيانات الكبيرة
+*.csv
+*.tsv
+*.parquet
+*.json
+
+# ملفات Spark
+.metastore_db/
+
+# ملفات VS Code
+.vscode/

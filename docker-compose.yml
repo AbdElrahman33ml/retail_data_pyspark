@@ -1,0 +1,14 @@
+
+    version: '3.8'
+
+    services:
+      spark-app:
+        build: .
+        container_name: spark_container
+        volumes:
+          - .:/app
+        ports:
+          - "4040:4040"
+        environment:
+          - PYSPARK_PYTHON=python3.10
+    
